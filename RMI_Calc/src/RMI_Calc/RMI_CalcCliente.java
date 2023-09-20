@@ -49,7 +49,10 @@ public class RMI_CalcCliente {
 		}
 
 	}
-	
+	/**
+     * Read choice (option) between 1 and 3 
+     * @return the choice  insert by the user
+     */
 	public static int getChoice() {
 		try {
 			System.out.println("Enter choice:");
@@ -62,6 +65,10 @@ public class RMI_CalcCliente {
 		}
 	}
 	
+	/**
+     * Get the number between 1 and 3 
+     * @return the number insert by the user
+     */
 	public static double getInput() {
 		try {
 			System.out.println("Enter a number ");
