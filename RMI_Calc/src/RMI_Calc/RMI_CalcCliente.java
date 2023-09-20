@@ -50,7 +50,7 @@ public class RMI_CalcCliente {
 
 	}
 	/**
-     * Read choice (option) between 1 and 3 
+     * Read choice (option) between 1 and 3
      * @return choice - option insert by the user
      */
 	public static int getChoice() {
@@ -67,7 +67,7 @@ public class RMI_CalcCliente {
 	
 	/**
      * Get the number between 1 and 3 
-     * @return the number insert by the user
+     * @return number insert by the user
      */
 	public static double getInput() {
 		try {
