@@ -9,6 +9,10 @@ import java.rmi.server.UnicastRemoteObject;
 
 public class RMI_CalcServer extends UnicastRemoteObject implements RMI_Calc_Interface {
 
+	/**
+     * Methods for remote call
+     */
+	
 	public RMI_CalcServer() throws RemoteException {
 		super();
 	}
